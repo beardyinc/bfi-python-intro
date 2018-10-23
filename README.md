@@ -19,7 +19,7 @@ python
 >>> binary.run()
 
 ```
-This will call the (very simple) CLI.
+This will call the (very simple) CLI. 
 
 # ```binary.py```
 Contains a function `to_binary`that converts an integer into its binary representation (`str`). 
