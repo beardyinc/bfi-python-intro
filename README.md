@@ -9,6 +9,18 @@ The try to cover a few basic topics:
 # how to run the tests
 simply call `python unittests.py` from a command line of your choice
 
+# how to run commandline programs
+many of the python scripts have a `run()` method that runs the commandline program. On the shell of your choice execute the following steps:
+```
+python
+
+>>> import binary
+
+>>> binary.run()
+
+```
+This will call the (very simple) CLI.
+
 # ```binary.py```
 Contains a function `to_binary`that converts an integer into its binary representation (`str`). 
 
