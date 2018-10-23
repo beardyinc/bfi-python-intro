@@ -1,14 +1,12 @@
-from tasks.primecheck import is_prime
+from samples.primecheck import is_prime
 
 
-def get_primes(upper: int) -> list:
+def print_primes(upper: int):
     count = 0
-    result = []
     for i in range(0, upper, 1):
         if is_prime(i):
-            result.append(i)
+            print(str(count) + ') prime number found: ' + str(i))
             count += 1
-    return result
 
 
 def is_invalid_input(text: str):
@@ -20,6 +18,6 @@ def run():
     if is_invalid_input(number):
         print('invalid input. restart to try again')
     else:
-        print('factorial is ' + str(get_primes(int(number))))
+        print('factorial is ' + str(print_primes(int(number))))
 
 
