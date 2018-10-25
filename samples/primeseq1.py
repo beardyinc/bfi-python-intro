@@ -1,4 +1,4 @@
-from samples.primecheck import is_prime
+from primecheck import is_prime
 
 
 def print_primes(upper: int):

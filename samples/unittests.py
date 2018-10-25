@@ -1,10 +1,10 @@
 import math
 import unittest
 
-from samples.binary import to_binary
-from samples.factorial import calc_factorial
-from samples.primecheck import is_prime
-from samples.primeseq2 import get_primes
+from binary import to_binary
+from factorial import calc_factorial
+from primecheck import is_prime
+from primeseq2 import get_primes
 
 
 class TestStringMethods(unittest.TestCase):
