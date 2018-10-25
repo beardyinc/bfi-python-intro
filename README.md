@@ -9,8 +9,13 @@ The try to cover a few basic topics:
 # how to run the tests
 simply call `python unittests.py` from a command line of your choice
 
+# in your IDE (e.g. pyCharm)
+do *not* forget to mark the `samples` directory as sources root!
+
 # how to run commandline programs
 many of the python scripts have a `run()` method that runs the commandline program. On the shell of your choice execute the following steps:
+
+
 ```
 python
 
