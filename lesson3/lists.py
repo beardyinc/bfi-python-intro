@@ -4,9 +4,10 @@ mylist.append('lemon')
 print(mylist)
 # mylist.remove('banana')
 
-mylist.pop()
+# mylist.pop()
 # equivalent to:
-del mylist[3]
+
+mylist.reverse()
 print(mylist)
 
 number = 17
