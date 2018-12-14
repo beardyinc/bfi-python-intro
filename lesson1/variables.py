@@ -1,13 +1,11 @@
-a = 'text1'
-b = 'text2'
+a = 'ein wert'
+b = 'ein anderer wert'
 print(a)
 print(b)
 
-a = 15
-
-c = a
+helper = a
 a = b
-b = c
+b = helper
 
 print(a)
 print(b)

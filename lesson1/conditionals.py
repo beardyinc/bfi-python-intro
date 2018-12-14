@@ -1,17 +1,16 @@
-number = 15
+b = 10
+a = 5
 
-cond1 = number == 17
-cond2 = False
-cond3 = True
-
-# if not (not (cond1 or not cond2) and not cond3):
-#     print('yes, condition is true')
-#     b = 26
-#     print(b)
-
-#      False          False
-if cond1 or (cond2 or cond3):
-    print('yes, its true')
+if a == 0 or b / a < 5:
+    print('lsadflaksjf')
 else:
-    print('nope')
-anotherVariable = "test"
+    print('092380234')
+
+######################################
+
+if a == 0:
+    print('lsadflaksjf')
+elif b / a < 5:
+    print('lsadflaksjf')
+else:
+    print('092380234')
