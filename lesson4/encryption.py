@@ -1,16 +1,20 @@
-text = 'hallo welt, mir gehts gut!'
-
-
-def encrypt(text):
+def encrypt(plaintext):
+    vocals = 'aAeEiIuUoO'
     result = ''
-    for char in text:
-        if char in 'aAeEiIoOuU':
+    space = ' '
+
+    for cur_char in plaintext:
+
+        if cur_char in vocals:
+            # do something here!!
             result += 'X'
+        elif cur_char == space:
+            result += 'Y'
         else:
-            result += char
+            result += cur_char
+
     return result
 
 
-encrypted_text = encrypt(text)
-print(encrypted_text)
-# hXllX wXlt, mXr gXhts gXt!
+def decrypt(encryptedText):
+    return encryptedText.replace('Y', ' ')
