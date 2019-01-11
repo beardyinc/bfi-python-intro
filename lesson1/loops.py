@@ -1,14 +1,13 @@
-target = 101
+count = 0
+while count < 10:
+    print(count)
+    count += 1
 
-# while count < target:
-#     # count = count + 1
-#     count += 1  # increment count
-#     print(count)
-# print('loop is done')
+# is equal to:
+print('####################')
+c = 234
+for c in range(0, 10,2):
+    print(c)
 
-# 0 .. 9
-
-for i in range(100):  # increment = 1
-    print(i)
-
-print('for loop is done')
+result = 14+c
+print(result)

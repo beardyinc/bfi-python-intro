@@ -1,16 +1,7 @@
-b = 10
-a = 5
+cond1 = True
+cond2 = True
+cond3 = True
 
-if a == 0 or b / a < 5:
-    print('lsadflaksjf')
-else:
-    print('092380234')
 
-######################################
-
-if a == 0:
-    print('lsadflaksjf')
-elif b / a < 5:
-    print('lsadflaksjf')
-else:
-    print('092380234')
+if cond1 and cond2 and cond3:
+    print('yes, all conditions are true')

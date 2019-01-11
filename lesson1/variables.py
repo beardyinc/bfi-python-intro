@@ -1,11 +1,6 @@
-a = 'ein wert'
-b = 'ein anderer wert'
-print(a)
-print(b)
+a = 15
+b = 72
+str = 'non offensive text'
+pi = 3.14159
 
-helper = a
-a = b
-b = helper
-
-print(a)
-print(b)
+a = 'fritzi'
